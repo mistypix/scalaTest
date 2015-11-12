@@ -3,8 +3,7 @@ import scala.xml._
 import scala.actors._
 import Actor._
 
-class MyClass(val myColor: String, var myNum: Int)
-{
+class MyClass(val myColor: String, var myNum: Int){
 	println("hello world 1");
 	//def this(val Color: String)={this(Color,0)}
 	def print()={println(myColor,myNum)}
